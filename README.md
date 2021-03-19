@@ -5,5 +5,15 @@ Django template for developing alongside Node.js
 1. Fork project
 2. Change secrey key at .env/SECRET_KEY.txt and include path in .gitignore
 3. Activate environment `source django-node-env/bin/activate`
-4. Install node dependencies `npm install`
-5. Code!
+4. Update pip and install dependencies dependencies
+
+`pip install --upgrade pip`
+
+`pip install rcssmin --install-option="--without-c-extensions"`
+  
+`pip install rjsmin --install-option="--without-c-extensions"`
+
+`pip install django-compressor django-compressor-toolkit`
+
+5. Install node dependencies `npm install`
+6. Code!
