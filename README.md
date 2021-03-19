@@ -11,9 +11,9 @@ Django template for developing alongside Node.js
 
     `pip install rcssmin --install-option="--without-c-extensions"`
 
-    `pip install rjsmin --install-option="--without-c-extensions"`
-
     `pip install django-compressor django-compressor-toolkit`
+    
+    `pip install rjsmin --install-option="--without-c-extensions"`
 
 5. Install node dependencies `npm install`
 6. Code!
